@@ -1,3 +1,4 @@
-.cabecalho {
-    margin-bottom: 500px;
+.valores {
+    display: flex;
+    flex-direction: row;
 }
