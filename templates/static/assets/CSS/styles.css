@@ -1,4 +1,76 @@
-.valores {
+.caixa {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0.10)100%), url(../IMG/aurora.jpg);
+
+    height: 300px;
+    background-size: cover;
+
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    
+}
+
+.banner-titulo {
+    color: gray;
+}
+
+.painel {
+    padding: 2rem 1rem;
+}
+
+.painel-titulos {
+    padding: 1rem 0;
+}
+
+.painel-titulos-h1 {
+    font-size: 35px;
+}
+
+.painel-titulos-p {
+    color: gray;
+}
+
+.painel-valores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 23%;
+    transition: 1s all;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.painel-cotacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.painel-cotacoes-card {
+    width: 40%;
+    padding: 1rem 0;
+}
+
+.rodape {
+    text-align: center;
+    background: url(../IMG/bg.jpg);
+    padding: 40px 0;
+}
+
+.rodape-copyright, .rodape-assinatura {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
