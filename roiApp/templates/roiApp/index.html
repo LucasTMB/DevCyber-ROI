@@ -4,32 +4,221 @@
 {%block 'titulo'%}DevCyber | Home{%endblock%} <!--Insere o título da página-->
 
 {%block 'conteudo'%} <!--Insere o conteúdo dentro do body-->
-    <header class="cabecalho">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="{% static 'assets/IMG/icone_devcyber.png' %}" alt="Logo da DevCyber" width="50px" height="50px">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-              </div>
+
+  <header class="cabecalho">
+      <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid caixa">
+            <a class="navbar-brand" href="/">
+              <img src="{% static 'assets/IMG/icone_devcyber-branco.png' %}" alt="Logo da DevCyber" width="50px" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Painel</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/calculadora/">Calculadora ROI</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-    </header>
+          </div>
+        </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h1 class="banner-titulo caixa">
+        DECYNVEST
+      </h1>
+    </section>
+
+    <section class="painel caixa">
+      <fieldset class="painel-titulos">
+        <h2 class="painel-titulos-h2">
+          Painel
+        </h2>
+        <p class="painel-titulos-p">
+          Central de informações gerais
+        </p>
+      </fieldset>
+
+      <fieldset class="painel-valores">
+        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/EURBRL/?exchange=FX_IDC">
+            <div class="card-header">Valor Euro</div>
+            <div class="card-body">
+              <p class="card-text">R$ 5,00 - € 1,00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/USDBRL/?exchange=FX_IDC">
+            <div class="card-header">Valor Dólar</div>
+            <div class="card-body">
+              <p class="card-text">R$ 5,04 - US$ 1,00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/GBPBRL/?exchange=FX_IDC">
+            <div class="card-header">Valor Libra</div>
+            <div class="card-body">
+              <p class="card-text">R$ 5,74 - £ 1,00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/BTCBRL/?exchange=BINANCE">
+            <div class="card-header">Valor Bitcoin</div>
+            <div class="card-body">
+              <p class="card-text">R$ 107.432,88 - 1 Bitcoin</p>
+            </div>
+          </a>
+        </div>
+      </fieldset>
+
+      <fieldset class="painel-cotacoes">
+        <div class="painel-cotacoes-card">
+          <legend>
+            Dólar
+          </legend>
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div id="tradingview_6cb56"></div>
+            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/USDBRL/?exchange=FX_IDC" rel="noopener" target="_blank"><span class="blue-text">Gráfico USDBRL</span></a> por TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            new TradingView.widget(
+            {
+              "width": 500,
+              "height": 300,
+              "symbol": "FX_IDC:USDBRL",
+              "interval": "D",
+              "timezone": "Etc/UTC",
+              "theme": "light",
+              "style": "1",
+              "locale": "br",
+              "toolbar_bg": "#f1f3f6",
+              "enable_publishing": false,
+              "hide_legend": true,
+              "save_image": false,
+              "container_id": "tradingview_6cb56"
+            }
+            );
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+        <div class="painel-cotacoes-card">
+          <legend>
+            Bitcoin
+          </legend>
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div id="tradingview_feba0"></div>
+            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/BTCBRL/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">Gráfico BTCBRL</span></a> por TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            new TradingView.widget(
+              {
+                "width": 500,
+                "height": 300,
+                "symbol": "BINANCE:BTCBRL",
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "light",
+                "style": "1",
+                "locale": "br",
+                "toolbar_bg": "#f1f3f6",
+                "enable_publishing": false,
+                "hide_legend": true,
+                "save_image": false,
+                "container_id": "tradingview_feba0"
+              }
+            );
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+        <div class="painel-cotacoes-card">
+          <legend>
+            Euro
+          </legend>
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div id="tradingview_cfdaf"></div>
+            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/EURBRL/?exchange=FX_IDC" rel="noopener" target="_blank"><span class="blue-text">Gráfico EURBRL</span></a> por TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            new TradingView.widget(
+            {
+              "width": 500,
+              "height": 300,
+              "symbol": "FX_IDC:EURBRL",
+              "interval": "D",
+              "timezone": "Etc/UTC",
+              "theme": "light",
+              "style": "1",
+              "locale": "br",
+              "toolbar_bg": "#f1f3f6",
+              "enable_publishing": false,
+              "hide_legend": true,
+              "save_image": false,
+              "container_id": "tradingview_cfdaf"
+          }
+            );
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+        <div class="painel-cotacoes-card">
+          <legend>
+            Libra
+          </legend>
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div id="tradingview_98431"></div>
+            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/GBPBRL/?exchange=FX_IDC" rel="noopener" target="_blank"><span class="blue-text">Gráfico GBPBRL</span></a> por TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            new TradingView.widget(
+            {
+              "width": 500,
+              "height": 300,
+              "symbol": "FX_IDC:GBPBRL",
+              "interval": "D",
+              "timezone": "Etc/UTC",
+              "theme": "light",
+              "style": "1",
+              "locale": "br",
+              "toolbar_bg": "#f1f3f6",
+              "enable_publishing": false,
+              "hide_legend": true,
+              "save_image": false,
+              "container_id": "tradingview_98431"
+            }
+            );
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+      </fieldset>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <img class="rodape-logo" src="{% static 'assets/IMG/logo-branco.png'%}" height="60px" width="260px" alt="Logo da DevCyber">
+    <p class="rodape-copyright">
+      &copy; Copyright DevCyber - 2022
+    </p>
+    <p class="rodape-assinatura">
+      Gabriel Ferreira - Isabelle Maria - Lucas Teixeira - Maria Eduarda Olímpio
+    </p>
+  </footer>
 {%endblock%}
