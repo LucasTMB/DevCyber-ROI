@@ -6,7 +6,7 @@
 .banner {
     background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0.10)100%), url(../img/aurora.jpg);
 
-    height: 300px;
+    height: 250px;
     background-size: cover;
 
     display: flex;
@@ -36,7 +36,19 @@
 
 .painel-valores {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: space-between;
+}
+
+.painel-valores-link {
+    text-decoration: none;
+    color: white;
+}
+
+.painel-valores-link:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .card {
@@ -73,4 +85,57 @@
     color: white;
     font-size: 13px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 580px) {
+    .caixa {
+        width: 100%;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .painel {
+        padding: 1rem 0;
+    }
+
+    .painel-titulos {
+        text-align: center;
+    }
+
+    .painel-valores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100vw;
+    }
+
+    .painel-cotacoes {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1199px) {
+    .banner-titulo {
+        padding: 0 2rem;
+    }
+
+    .painel {
+        padding: 1rem 2rem;
+    }
+
+    .painel-valores {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100vw;
+    }
+
+    .painel-cotacoes {
+        flex-direction: column;
+    }
 }

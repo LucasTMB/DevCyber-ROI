@@ -36,71 +36,80 @@
     </section>
 
     <section class="painel caixa">
-      <section class="painel-titulos">
+      <fieldset class="painel-titulos">
         <h2 class="painel-titulos-h2">
           Painel
         </h2>
         <p class="painel-titulos-p">
           Central de informações gerais
         </p>
-      </section>
+      </fieldset>
 
-      <section class="painel-valores">
+      <fieldset class="painel-valores">
         <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Valor Euro</div>
-          <div class="card-body">
-            <p class="card-text">R$ 5,00 - € 1,00</p>
-          </div>
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/EURBRL/?exchange=FX_IDC">
+            <div class="card-header">Valor Euro</div>
+            <div class="card-body">
+              <p class="card-text">R$ 5,00 - € 1,00</p>
+            </div>
+          </a>
         </div>
 
         <div class="card text-bg-success mb-3" style="max-width: 18rem;">
-          <div class="card-header">Valor Dólar</div>
-          <div class="card-body">
-            <p class="card-text">R$ 5,04 - US$ 1,00</p>
-          </div>
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/USDBRL/?exchange=FX_IDC">
+            <div class="card-header">Valor Dólar</div>
+            <div class="card-body">
+              <p class="card-text">R$ 5,04 - US$ 1,00</p>
+            </div>
+          </a>
         </div>
 
         <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
-          <div class="card-header">Valor Libra</div>
-          <div class="card-body">
-            <p class="card-text">R$ 5,74 - £ 1,00</p>
-          </div>
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/GBPBRL/?exchange=FX_IDC">
+            <div class="card-header">Valor Libra</div>
+            <div class="card-body">
+              <p class="card-text">R$ 5,74 - £ 1,00</p>
+            </div>
+          </a>
         </div>
 
         <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Valor Bitcoin</div>
-          <div class="card-body">
-            <p class="card-text">R$ 107.432,88 - 1 Bitcoin</p>
-          </div>
+          <a class="painel-valores-link" target="_blank" href="https://br.tradingview.com/symbols/BTCBRL/?exchange=BINANCE">
+            <div class="card-header">Valor Bitcoin</div>
+            <div class="card-body">
+              <p class="card-text">R$ 107.432,88 - 1 Bitcoin</p>
+            </div>
+          </a>
         </div>
-      </section>
+      </fieldset>
 
-      <section class="painel-cotacoes">
+      <fieldset class="painel-cotacoes">
         <div class="painel-cotacoes-card">
           <legend>
             Dólar
           </legend>
           <!-- TradingView Widget BEGIN -->
           <div class="tradingview-widget-container">
-            <div id="tradingview_7bfed"></div>
-            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/BMFBOVESPA-DOL1!/" rel="noopener" target="_blank"><span class="blue-text">Gráfico DOL1!</span></a> por TradingView</div>
+            <div id="tradingview_6cb56"></div>
+            <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/USDBRL/?exchange=FX_IDC" rel="noopener" target="_blank"><span class="blue-text">Gráfico USDBRL</span></a> por TradingView</div>
             <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
             <script type="text/javascript">
             new TradingView.widget(
-              {
-                "width": 500,
-                "height": 300,
-                "interval": "D",
-                "timezone": "Etc/UTC",
-                "theme": "light",
-                "style": "1",
-                "locale": "br",
-                "toolbar_bg": "#f1f3f6",
-                "enable_publishing": false,
-                "hide_legend": true,
-                "save_image": false,
-                "container_id": "tradingview_7bfed"
-              }
+            {
+              "width": 500,
+              "height": 300,
+              "symbol": "FX_IDC:USDBRL",
+              "interval": "D",
+              "timezone": "Etc/UTC",
+              "theme": "light",
+              "style": "1",
+              "locale": "br",
+              "toolbar_bg": "#f1f3f6",
+              "enable_publishing": false,
+              "hide_legend": true,
+              "save_image": false,
+              "container_id": "tradingview_6cb56"
+            }
             );
             </script>
           </div>
@@ -149,19 +158,19 @@
             <script type="text/javascript">
             new TradingView.widget(
             {
-            "width": 500,
-            "height": 300,
-            "symbol": "FX_IDC:EURBRL",
-            "interval": "D",
-            "timezone": "Etc/UTC",
-            "theme": "light",
-            "style": "1",
-            "locale": "br",
-            "toolbar_bg": "#f1f3f6",
-            "enable_publishing": false,
-            "hide_legend": true,
-            "save_image": false,
-            "container_id": "tradingview_cfdaf"
+              "width": 500,
+              "height": 300,
+              "symbol": "FX_IDC:EURBRL",
+              "interval": "D",
+              "timezone": "Etc/UTC",
+              "theme": "light",
+              "style": "1",
+              "locale": "br",
+              "toolbar_bg": "#f1f3f6",
+              "enable_publishing": false,
+              "hide_legend": true,
+              "save_image": false,
+              "container_id": "tradingview_cfdaf"
           }
             );
             </script>
@@ -199,7 +208,7 @@
           </div>
           <!-- TradingView Widget END -->
         </div>
-      </section>
+      </fieldset>
     </section>
   </main>
 
