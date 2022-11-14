@@ -28,6 +28,28 @@
         </nav>
     </header>
 
+    <main class="conteudo-calculadora">
+        <form class="formulario">
+          <h2 class="formulario-titulo">Calculadora de ROI</h2>
+          <fieldset class="formulario-inputs">
+            <div class="formulario-campo">
+              <label class="formulario-label" for="valorInvestimento">Valor do Investimento:</label>
+              <input type="number" name="valorInvestimento" id="valorInvestimento" placeholder=" ex: 2000.58">
+            </div>
+            <div class="formulario-campo">
+              <label class="formulario-label" for="receitaGerada">Receita Gerada:</label>
+              <input type="number" name="receitaGerada" id="receitaGerada" placeholder=" ex: 1800.00">
+            </div>
+          </fieldset>
+          <fieldset class="formulario-botao">
+            <button type="button" onclick="botaoCalcular()">Calcular</button>
+          </fieldset>
+          <div class="formulario-saida">
+            <p class="formulario-saida-texto">teste</p>
+          </div>
+        </form>
+      </main>
+
     <footer class="rodape">
         <img class="rodape-logo" src="{% static 'assets/IMG/logo-branco.png'%}" height="60px" width="260px" alt="Logo da DevCyber">
         <p class="rodape-copyright">
