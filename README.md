@@ -82,17 +82,25 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="assets/Duda.jpg" width="100px;" alt="Foto da Duda"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Maria Eduarda Olímpio</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="assets/Isa.jpg" width="100px;" alt="Foto de Isa"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Isabelle Maria</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="assets/Gabriel.jpg" width="100px;" alt="Foto de Gabriel"/><br>
+        <sub>
+          <b>Gabriel Ferreira</b>
         </sub>
       </a>
     </td>
