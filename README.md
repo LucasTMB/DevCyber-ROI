@@ -74,9 +74,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="assets/Lucas.jpg" width="100px;" alt="Foto do Lucas"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Lucas Teixeira</b>
         </sub>
       </a>
     </td>
