@@ -36,12 +36,29 @@ Para instalar o <nome_do_projeto>, siga estas etapas:
 
 Linux e macOS:
 ```
-<comando_de_instalação>
+sudo apt install python3-django
 ```
 
 Windows:
+
+Instalação do Django
 ```
-<comando_de_instalação>
+python3 -m pip install django==3
+```
+
+Iniciando projeto
+```
+python3 -m django startproject nome_do_projeto
+```
+
+Iniciando o App
+```
+python3 .\manage.py startapp nome_do_app
+```
+
+Inicializando o servidor
+```
+python3 .\manage.py runserver
 ```
 
 ## ☕ Usando <nome_do_projeto>
