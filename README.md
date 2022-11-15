@@ -29,9 +29,18 @@ python3 -m pip install django==3
 
 
 ### Inicializando o servidor:
+
+Linux e macOS:
+```
+python manage.py runserver your_server_ip:8000
+```
+
+Windows:
 ```
 python3 .\manage.py runserver
 ```
+
+
 
 ## ☕ Usando <nome_do_projeto>
 
