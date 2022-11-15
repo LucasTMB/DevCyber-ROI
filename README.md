@@ -2,7 +2,7 @@
 
 <img src="assets/calculadora-ROI.png" alt="Calculadora de ROI">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> O site possibilita o acompanhamento da cotação do Euro, Dólar, Libra e BitCoin. Em conjunto a isso, também permite que o usuário realize o cálculo do ROI (Retorno sobre Investimento).
 
 ## 💻 Pré-requisitos
 
