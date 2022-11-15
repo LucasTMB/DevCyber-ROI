@@ -71,7 +71,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/LucasTMB" target="_blank">
         <img src="assets/Lucas.jpg" width="100px;" alt="Foto do Lucas"/><br>
         <sub>
           <b>Lucas Teixeira</b>
@@ -79,7 +79,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/MEduardaOl" target="_blank">
         <img src="assets/Duda.jpg" width="100px;" alt="Foto da Duda"/><br>
         <sub>
           <b>Maria Eduarda Olímpio</b>
@@ -87,7 +87,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/isabellemaria" target="_blank">
         <img src="assets/Isa.jpg" width="100px;" alt="Foto de Isa"/><br>
         <sub>
           <b>Isabelle Maria</b>
@@ -95,7 +95,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/Gabrferr" target="_blank">
         <img src="assets/Gabriel.jpg" width="100px;" alt="Foto de Gabriel"/><br>
         <sub>
           <b>Gabriel Ferreira</b>
